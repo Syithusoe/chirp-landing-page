@@ -3,7 +3,7 @@ import Feedback from "./components/Feedback";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import PricePlan from "./components/PricePlan";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 
 function Home() {
   return (
