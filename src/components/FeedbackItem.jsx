@@ -18,14 +18,14 @@ function FeedbackItem({
         </div>
 
         <div>
-          <img src="src\assets\Twitter (Blue).svg" alt="" />
+          <img src="/assets/Twitter (Blue).svg" alt="" />
         </div>
       </div>
       <div className="feedback__item__body"> {feedback}</div>
       <div className="feedback__item__footer">
         <div>
           <p className="feedback__item__footer__like">
-            <img src="src/assets/Like.svg" alt="" />{" "}
+            <img src="/assets/Like.svg" alt="" />{" "}
             <span className="footer-span-text">{likeCount}</span>
           </p>
         </div>{" "}

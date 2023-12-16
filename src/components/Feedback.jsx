@@ -3,7 +3,7 @@ import FeedbackItem from "./FeedbackItem";
 const feedbacks = [
   {
     customerName: "Sara May",
-    userProfile: `src/assets/userAvatar01.svg`,
+    userProfile: `/assets/userAvatar01.svg`,
     username: "@sara_may",
     likeCount: "2",
     feedback:
@@ -11,7 +11,7 @@ const feedbacks = [
   },
   {
     customerName: "Jack Scott",
-    userProfile: `src/assets/userAvatar07.svg`,
+    userProfile: `/assets/userAvatar07.svg`,
     username: "@jackscott_",
     likeCount: "32",
     feedback:
@@ -19,7 +19,7 @@ const feedbacks = [
   },
   {
     customerName: "Jessica May",
-    userProfile: `src/assets/userAvatar05.svg`,
+    userProfile: `/assets/userAvatar05.svg`,
     username: "@jmay98",
     likeCount: "221",
     feedback:

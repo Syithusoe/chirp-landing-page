@@ -30,42 +30,42 @@ function Hero() {
         </div>
         <div className="avatars">
           <img
-            src="src\assets\userAvatar01.svg"
+            src="\assets\userAvatar01.svg"
             alt=""
             className="avatars__item"
           />
           <img
-            src="src\assets\userAvatar02.svg"
+            src="\assets\userAvatar02.svg"
             alt=""
             className="avatars__item"
           />
           <img
-            src="src\assets\userAvatar03.svg"
+            src="\assets\userAvatar03.svg"
             alt=""
             className="avatars__item"
           />
           <img
-            src="src\assets\userAvatar04.svg"
+            src="\assets\userAvatar04.svg"
             alt=""
             className="avatars__item"
           />
           <img
-            src="src\assets\userAvatar05.svg"
+            src="\assets\userAvatar05.svg"
             alt=""
             className="avatars__item"
           />
           <img
-            src="src\assets\userAvatar06.svg"
+            src="\assets\userAvatar06.svg"
             alt=""
             className="avatars__item"
           />
           <img
-            src="src\assets\userAvatar07.svg"
+            src="\assets\userAvatar07.svg"
             alt=""
             className="avatars__item"
           />
           <img
-            src="src\assets\userAvatar08.svg"
+            src="\assets\userAvatar08.svg"
             alt=""
             className="avatars__item"
           />
@@ -79,7 +79,7 @@ function Hero() {
       {/**Image Section */}
       <div className="hero__right">
         <img
-          src="src\assets\Hero Image (Desktop View).png"
+          src="\assets\Hero Image (Desktop View).png"
           alt=""
           className="hero-image"
         />
