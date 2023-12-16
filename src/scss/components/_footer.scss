@@ -1,0 +1,47 @@
+.footer-container {
+  min-height: 8vh;
+  //   margin: 4rem 16rem 4rem 16rem;
+  background-color: $footer-bg-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer {
+  margin: 0 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.8rem;
+
+  @include phone {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__logo {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $button-color;
+    font-style: italic;
+    cursor: pointer;
+  }
+
+  &__right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  &__twitter-logo {
+    padding-top: 0.3rem;
+    cursor: pointer;
+  }
+  @include phone {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+}

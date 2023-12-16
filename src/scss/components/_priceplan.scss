@@ -1,0 +1,144 @@
+.price-plan-container {
+  min-height: 60vh;
+  margin: 0 2rem 0 2rem;
+  padding: 4rem 0rem;
+  @include phone {
+    margin-left: 16rem;
+    margin-right: 16rem;
+  }
+}
+
+.price-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  &__title {
+    font-size: 2.2rem;
+    text-align: center;
+    @include phone {
+      font-size: 2.5rem;
+    }
+  }
+
+  &__subtitle {
+    text-align: center;
+    color: $secondary-text-color;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    @include phone {
+      font-size: 1.2rem;
+      line-height: 0;
+      margin-top: 1rem;
+    }
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  &__card {
+    border: 2px solid #ffcd79;
+    padding: 4rem 2rem;
+    background-color: $card-bg-color;
+    border-radius: 0.8rem;
+    width: 20rem;
+
+    @include phone {
+      width: 18rem;
+      padding: 2.5rem 3rem;
+    }
+    @include laptop {
+      width: 30rem;
+    }
+
+    @include desktop {
+      width: 23rem;
+    }
+
+    &__feature {
+      margin: 0.8rem 0;
+      font-size: 1.2rem;
+      display: flex;
+      flex-direction: row;
+      color: $secondary-text-color;
+
+      @include phone {
+        font-size: 1.2rem;
+      }
+
+      img {
+        width: 0px;
+        height: 0px;
+        @include phone {
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
+
+    &__header {
+      margin-bottom: 1.2rem;
+    }
+
+    &__body {
+      margin-top: 1.2rem;
+      margin-bottom: 1.2rem;
+    }
+
+    &__footer {
+      margin-top: 1.5rem;
+      &__btn {
+        border: none;
+        color: white;
+        background-color: $button-color;
+        padding: 1.2rem 1.5rem;
+        border-radius: 0.2rem;
+        font-weight: 600;
+        font-size: 1rem;
+        width: 100%;
+        cursor: pointer;
+        @include phone {
+          font-size: 1.2rem;
+        }
+        @include laptop {
+          padding: 1rem 1.2rem;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+.monthly-title {
+  font-size: 2.5rem;
+  letter-spacing: -0.03em;
+  color: $secondary-text-color;
+
+  @include phone {
+    font-size: 2.5rem;
+    font-weight: 200;
+  }
+}
+
+.price {
+  font-size: 4rem;
+  font-weight: 600;
+  @include phone {
+    font-size: 1.8rem;
+    font-size: 3rem;
+  }
+}
+
+.span-month {
+  color: $secondary-text-color;
+  font-size: 1.8rem;
+  @include phone {
+    font-size: 20px;
+  }
+}

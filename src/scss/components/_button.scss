@@ -1,0 +1,25 @@
+.button {
+  border: none;
+  background-color: $button-color;
+  color: white;
+  padding: 1.2rem 5rem;
+  border-radius: 0.2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  width: 100%;
+  cursor: pointer;
+
+  @include phone {
+    padding: 1rem 1.5rem;
+    width: 30%;
+  }
+
+  @include tablet {
+    padding: 1.2rem 0;
+    width: 35%;
+  }
+  @include laptop {
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+  }
+}

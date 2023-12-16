@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import "colors";
+
+@import "base";
+
+@import "breakpoints";
+
+@import "components/navbar";
+
+@import "components/button";
+
+@import "components/hero";
+
+@import "components/features";
+
+@import "components/feedback";
+
+@import "components/priceplan";
+
+@import "components/footer";
+body {
+  font-family: "Inter", sans-serif;
+  background-color: $primary-bg-color;
+}
