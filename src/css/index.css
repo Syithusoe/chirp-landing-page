@@ -119,7 +119,6 @@ img {
   align-items: center;
   position: absolute;
   z-index: 100;
-  left: 2.7rem;
 }
 
 .navbar-dropdown {
@@ -130,8 +129,8 @@ img {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem 8.5rem;
-  width: auto;
+  padding: 1rem 6rem;
+  width: 100vw;
   border: 2px solid #f0ebe7;
   border-radius: 4px;
 }
