@@ -76,3 +76,34 @@
     }
   }
 }
+
+.navbar-dropdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 100;
+  left: 2.7rem;
+}
+
+.navbar-dropdown {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  // margin: 1rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 8.5rem;
+  width: auto;
+  border: 2px solid $card-border-color;
+  border-radius: 4px;
+
+  .navbar-item {
+    margin: 0.8rem 0;
+    &:hover {
+      color: $button-color;
+    }
+  }
+}
