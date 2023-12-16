@@ -8,7 +8,7 @@ function Footer() {
         <div className="footer__right-section">
           <div>
             <img
-              src="src\assets\Twitter (Black).svg"
+              src="\assets\Twitter (Black).svg"
               alt=""
               width="20px"
               height="20px"
